@@ -1,0 +1,125 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "InternautMsApplication",
+      "request": "launch",
+      "mainClass": "com.internaut.internaut_ms.InternautMsApplication",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-DiscoveryApplication<discovery>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.discovery.discovery.DiscoveryApplication",
+      "projectName": "discovery",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=44663 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=discovery"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ConfigApplication<config>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.config_server.config.ConfigApplication",
+      "projectName": "config",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MsApplication<ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.gateway.ms.MsApplication",
+      "projectName": "ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ProductMsApplication<product-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.product.product_ms.ProductMsApplication",
+      "projectName": "product-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UserMsApplication<user-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.user.user_ms.UserMsApplication",
+      "projectName": "user-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EvenementMsApplication<evenement-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.evenement.evenement_ms.EvenementMsApplication",
+      "projectName": "evenement-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=44921 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=evenement-ms"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TicketMsApplication<internaults-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.ticket.ticket_ms.TicketMsApplication",
+      "projectName": "internaults-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-InternautMsApplication<internaults-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.internaunt.internaunt_ms.InternautMsApplication",
+      "projectName": "internaults-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=44769 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=internaults-ms"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-TicketMsApplication<ticket-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.ticket.ticket_ms.TicketMsApplication",
+      "projectName": "ticket-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=37949 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ticket-ms"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-InternautMsApplication<internaults-ms>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.internaut.internaut_ms.InternautMsApplication",
+      "projectName": "internaults-ms",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MsApplication<gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.gateway.ms.MsApplication",
+      "projectName": "gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
